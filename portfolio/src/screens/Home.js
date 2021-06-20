@@ -1,7 +1,7 @@
 const Home = () => {
     return ( 
         <div className="home">
-            <p>This is home page</p>
+            <p style={{margin:'20vw'}}>This is home page</p>
         </div>
      );
 }

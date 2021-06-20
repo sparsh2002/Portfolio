@@ -7,9 +7,10 @@ const Navbar = () => {
                     SparshDesign
                 </div>
                 <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><Link to='/' className="active link">Home</Link></li>
+                    <li><Link to='/about' className="link">About</Link></li>
+                    <li><Link to='/ourWorks' className="link">Our Works</Link></li>
+                    <li><Link to='/contact' className="link">Contact</Link></li>
                 </ul>
             </nav>
         </div>
